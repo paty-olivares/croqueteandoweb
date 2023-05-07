@@ -1,0 +1,41 @@
+/*Entrega 3 Practicando SASSS*/
+/*=================================================================
+  Footer and Credits  -   Transformando el Footer  a SASS ======
+================================================================== */
+
+footer {
+    background-color: #363636;
+    padding: 45px 0px;
+  
+    p, h6, h5, h4, ul {
+      color: #fff;
+      margin-top: 0px;
+    }
+  
+    &.no-margin {
+      margin-top: 0px;
+    }
+  
+    p {
+      margin-top: 20px;
+      text-align: center;
+      line-height: 24px;
+      font-size: 14px;
+    }
+  
+    i {
+      font-size: 12px;
+      margin-right: 8px;
+    }
+  
+    a {
+      color: #fff;
+    }
+  }
+  
+  .credits {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  

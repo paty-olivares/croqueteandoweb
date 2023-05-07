@@ -1,0 +1,69 @@
+/*Entrega 3 Practicando SASSS*/
+/*=================================================================
+  Social Media Bar  -   Transformando a  SASS ======
+================================================================== */
+/* BIG Social Media Icons */
+.social-media {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    a {
+      display: inline-block;
+      font-size: 25px;
+  
+      i {
+        &:hover {
+          transform: scale(1.2);
+          background-color: #fff;
+        }
+  
+        font-weight: normal;
+        color: #fff;
+        transition: all .3s ease-in-out;
+        margin: 3px;
+        padding: 10px;
+        width: 50px;
+        border: 3px solid;
+        border-radius: 50%;
+        height: 50px;
+      }
+    }
+  
+    i {
+      transition: all .3s ease-in-out;
+    }
+  }
+  
+  /* Small Social Media Icons */
+  
+  .smaller.social-media {
+    a i {
+      font-size: 22px;
+      transition: .3s;
+      margin: 0px;
+      border: 0px;
+      background: none;
+      padding: 0;
+      width: 30px;
+      color: #fff;
+  
+      &:hover {
+        background: none;
+      }
+    }
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .callout-box {
+    position: absolute;
+    float: right;
+    padding: 70px !important;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: -8px 15px 0px #fff;
+  }
+  

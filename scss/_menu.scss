@@ -1,0 +1,98 @@
+/*Entrega 3 Practicando SASSS*/
+/*=================================================================
+  Menu de Navegacion -   Transformando el Menú de Navegación a SASS ======
+================================================================== */
+/* Responsive navbar  */
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+.navbar-toggle {
+    font-size: 35px;
+    color: #fff;
+    transition: all .2s ease-in-out;
+    position: relative;
+    float: right;
+    line-height: 35px;
+}
+.navbar-toggle i:focus,
+.navbar-toggle i:active,
+.navbar-toggle i:hover {
+    color: #fff;
+}
+/* Enconger nav*/
+nav .navbar-brand img {
+    max-width: 180px;
+}
+nav .navbar-toggle {
+    margin: 13px 15px 13px 0;
+}
+nav a {
+    font-size: 17px;
+    padding-bottom: 35px !important;
+    padding-top: 35px !important;
+    transition: all 0.1s ease;
+}
+nav.navbar.shrink {
+    min-height: 35px;
+}
+nav.navbar.shrink .navbar-brand img {
+    max-width: 120px;
+}
+nav.navbar.shrink a {
+    font-size: 15px;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+}
+nav.navbar.shrink .navbar-toggle {
+    margin: 8px 15px 8px 0;
+    padding: 4px 5px;
+}
+.navbar-custom .navbar-nav>li>a {
+    color: #fff;
+    padding: 30px;
+    transition: all .2s ease-in-out;
+}
+.navbar-custom ul.nav li a:hover,
+.navbar-custom .nav > .active > a {
+    color: #fff;
+    padding: 30px;
+}
+.navbar-custom {
+    border: 0px;
+    font-family: 'Baloo Thambi', sans-serif;
+    font-weight: 400;
+}
+.navbar ul.dropdown-menu>li>a {
+    display: block;
+    padding: 13px 10px;
+    clear: both;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0px;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+    transition: all .2s ease-in-out;
+}
+nav.navbar.shrink ul.dropdown-menu>li>a {
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+/*===========================
+  Logo
+============================ */
+.navbar-brand-centered img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 180px;
+    right: 0;
+    margin: auto;
+  }
+  

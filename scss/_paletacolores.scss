@@ -1,0 +1,318 @@
+
+/*Entrega 3 Practicando SASSS*/
+/*=================================================================
+  Paleta de Colores checada en el site de la maestra  -   Transformando a SASS ======
+================================================================== */
+
+/*________  Azul de mi amor ________  */
+
+.pager li > a:hover, .back-to-top i:hover {
+    background-color: #108896;
+  }
+  
+  .pager li > {
+    a, span {
+      background-color: #108896;
+    }
+  }
+  
+  .nav .open > a {
+    background-color: #108896;
+  
+    &:focus, &:hover {
+      background-color: #108896;
+    }
+  }
+  
+  .pagination > .active > a {
+    background-color: #108896;
+  
+    &:focus {
+      background-color: #108896;
+    }
+  }
+  
+  .blog-tags a {
+    &:hover, &:focus {
+      background-color: #108896;
+    }
+  }
+  
+  .pagination > {
+    li > a {
+      &:hover, &:focus {
+        background-color: #108896;
+      }
+    }
+  
+    .active > {
+      a {
+        background-color: #108896;
+  
+        &:focus, &:hover {
+          background-color: #108896;
+        }
+      }
+  
+      span {
+        background-color: #108896;
+  
+        &:focus, &:hover {
+          background-color: #108896;
+        }
+      }
+    }
+  }
+  
+  .list-group-item, .social-media a i, .jumbotron .jumbo-heading, .price-table .plan-select a, .nav-pills > li > a, .nav.nav-tabs > li > a, .img-hover, .navbar-custom ul.nav ul.dropdown-menu, .bg-darkcolor, .panel-heading a.collapsed, .sidebar-header, .btn:hover, .label.default, .gallery-thumb .overlay-mask .owl-prev i:hover, .owl-next i:hover, .slide__overlay {
+    background-color: #108896;
+  }
+  
+  .media-heading small, .smaller.social-media a i, span, hr, a, i, h2, .price-table .plan-price, .social-media a i:hover, .team-wrap .member .wrap .info .position li:before, ul.custom li {
+    color: #108896;
+  }
+  
+  .service, .comment, .small-heading, .search-group .form-control, .breadcrumb, .container-fluid.accordion-group, .social-media a i, .img-blog img:hover, .team-wrap .member, #elements h3.sub-header, .img-rounded {
+    border-color: #108896;
+  }
+  
+  .table > {
+    tbody > tr > {
+      td, th {
+        border-color: #108896;
+      }
+    }
+  
+    tfoot > tr > {
+      td, th {
+        border-color: #108896;
+      }
+    }
+  
+    thead > tr > {
+      td, th {
+        border-color: #108896;
+      }
+    }
+  }
+  
+  .box_icon > .icon:hover > .image, .review .review-profile-image img {
+    outline-color: #108896;
+  }
+  
+  /*________  Naranja  ________  */
+  
+  .smaller.social-media a i:hover, .post-info i, .gallery-thumb i:hover {
+    color: #EF5030;
+  }
+  
+  a {
+    &:hover, &:focus {
+      color: #EF5030;
+    }
+  }
+  
+  #about .media i, h6 {
+    color: #EF5030;
+  }
+  
+  .breadcrumb {
+    > .active {
+      color: #EF5030;
+    }
+  
+    a {
+      &:hover, &:focus {
+        color: #EF5030;
+      }
+    }
+  }
+  
+  blockquote:before, #feature .media i, .page-header h2, .jumbo-heading h3, .small-heading, .nav.nav-tabs > li.active > a, .features:hover i, .numscroller, .bounce1:after, .img-box ul i:hover {
+    color: #EF5030;
+  }
+  
+  a.list-group-item {
+    &:focus, &:hover {
+      background-color: #EF5030;
+    }
+  }
+  
+  button.list-group-item {
+    &:focus, &:hover {
+      background-color: #EF5030;
+    }
+  }
+  
+  .open > .dropdown-toggle.btn-primary {
+    &:focus, &:hover {
+      background-color: #EF5030;
+    }
+  }
+  
+  .nav-pills .nav > li > a:focus {
+    background-color: #EF5030;
+  }
+  
+  .pager li > a {
+    &:hover, &:focus {
+      background-color: #EF5030;
+    }
+  }
+  
+  .back-to-top i, .blog-tags a, .date-category {
+    background-color: #EF5030;
+  }
+  
+  .dropdown-menu > li > a {
+    &:focus, &:hover {
+      background-color: #EF5030;
+    }
+  }
+  
+  .pagination > li > {
+    a, span {
+      background-color: #EF5030;
+    }
+  }
+  
+  .nav-pills > li.active > a {
+    background-color: #EF5030;
+  }
+  
+  .nav {
+    &.nav-pills > li > {
+      a {
+        &:focus, &:hover {
+          background-color: #EF5030;
+        }
+      }
+  
+      .active {
+        background-color: #EF5030;
+      }
+    }
+  
+    &.nav-tabs > li {
+      > a:hover, &.active > a:hover {
+        background-color: #EF5030;
+      }
+    }
+  }
+  
+  .btn, .label-danger, .navbar-custom ul.nav ul.dropdown-menu li a:hover, .input-group.date .input-group-addon {
+    background-color: #EF5030;
+  }
+  
+  .owl-theme .owl-dots .owl-dot {
+    span {
+      background-color: #EF5030;
+  
+      &:before {
+        background-color: #EF5030;
+      }
+    }
+  
+    &.active span, &:hover span {
+      background-color: #EF5030;
+    }
+  }
+  
+  #elements h3.sub-header {
+    background-color: #EF5030;
+  }
+  
+  .panel-heading a {
+    background-color: #EF5030;
+  
+    &:hover {
+      background-color: #EF5030;
+    }
+  }
+  
+  .navbar-custom {
+    ul.nav li a:hover, .nav > .active > a {
+      background-color: #EF5030;
+    }
+  }
+  
+  .elements h5 {
+    border-color: #EF5030;
+  }
+  
+  .open > .dropdown-toggle.btn-default {
+    &:focus, &:hover {
+      border-color: #EF5030;
+    }
+  }
+  
+  .form-control:focus, .features i {
+    border-color: #EF5030;
+  }
+  
+  /*________  Amarillo  ________  */
+  
+  .btn {
+    box-shadow: inset 9px 0px 0px 0px #F19F1F;
+  }
+  
+  .navbar, .nav > li > a:focus {
+    background-color: #F19F1F;
+  }
+  
+  .section-heading h2 {
+    &:before, &:after {
+      background-color: #F19F1F;
+    }
+  }
+  
+  .owl-prev i, .owl-next i, .bg-darkcolor .btn:hover {
+    background-color: #F19F1F;
+  }
+  
+  .form-control, .price-table .featured, #map-canvas {
+    border-color: #F19F1F;
+  }
+  
+  .date-category i {
+    color: #F19F1F;
+  }
+  
+  /*________  Gris  ________  */
+  
+  .bg.row, .review .review-profile-image img, .jumbotron, #elements h5.sub-header {
+    border-color: #F5F3EE;
+  }
+  
+  .label-default, blockquote, .box_icon > .icon, .bg-lightcolor1, .review .review-caption, .call-to-action, #preloader, .features i, .sidebar .well, .blog-row, .dropdown-menu, .tab-content {
+    background-color: #F5F3EE;
+  }
+  
+  .nav.nav-tabs > li.active > a {
+    &:focus {
+      background-color: #F5F3EE;
+    }
+  
+    background-color: #F5F3EE;
+  }
+  
+  .team-wrap .member {
+    background-color: #F5F3EE;
+  }
+  
+  .img-circle, .blog-post, .sidebar, .accordion-group {
+    border-color: #F5F3EE;
+  }
+  
+  /*________  Otro Amarillo mas bonito  ________  */
+  
+  .form-control, .price-table .plan, .well.lightcolor, .bg-lightcolor2, #elements h5.sub-header, .table-hover > tbody > tr:hover {
+    background: #ffefd5;
+  }
+  
+  .adoption-thumb {
+    img, &:hover img {
+      border-color: #ffefd5;
+    }
+  }
+  
